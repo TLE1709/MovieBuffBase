@@ -26,6 +26,7 @@ const AppProvider=({children}) =>{
         setIsLoading(true);
         try{
             const res=await fetch(url);
+            console.log(res);
             const data=await res.json();
             console.log(data);
             
