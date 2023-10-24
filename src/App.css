@@ -257,7 +257,7 @@ a:hover img {
 .gif-class{
   display: inline-block;
   width: 40%;
-  
+  height:4rem;
 }
 
 .text-class{
@@ -265,7 +265,8 @@ a:hover img {
   width: 50%;
   position: absolute;
   margin-left: 6rem;
-  margin-top: 12rem;
+  margin-top: 24rem;
+  text-align: center;
 }
 
 .text404{
@@ -275,11 +276,12 @@ a:hover img {
   color: #1A5F7A;
 }
 
-img{
+.error-img{
   width: 80%;
   position: relative;
-  margin-left: 6rem;
-  margin-top: 6rem;
+  margin-left: 14rem;
+  margin-top: 18rem;
+  height:116rem;
 }
 
 .back-to-reality{
