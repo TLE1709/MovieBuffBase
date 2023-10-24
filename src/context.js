@@ -15,6 +15,7 @@ const AppContext=React.createContext();
 //creating Provider
 const AppProvider=({children}) =>{
     
+    //All my states and their management
     const [isLoading,setIsLoading]=useState(true);
     const [movie,setMovie]=useState([]);
     const [isError,setIsError]=useState({show:"false",msg:""});
@@ -26,7 +27,7 @@ const AppProvider=({children}) =>{
         setIsLoading(true);
         try{
             const res=await fetch(url);
-            console.log(res);
+            // console.log(res);
             const data=await res.json();
             console.log(data);
             
