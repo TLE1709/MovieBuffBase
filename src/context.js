@@ -29,7 +29,7 @@ const AppProvider=({children}) =>{
             const res=await fetch(url);
             // console.log(res);
             const data=await res.json();
-            console.log(data);
+            // console.log(data);
             
             if(data.Response==="True"){
                 setMovie(data.Search);
